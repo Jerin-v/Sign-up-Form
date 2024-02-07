@@ -2,13 +2,30 @@ h1{
     margin: 0;
 }
 
+label, input{
+    display:block;
+}
+
+input {
+    height: 35px;
+    width: 300px;
+    border: #E5E7EB 1px solid;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 16px;
+}
 
 
-
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
 
 
 .leftContainer{
-    border: solid 2px orange;
     width: 35%;
     height: 100vh;
     flex:auto;
@@ -20,6 +37,17 @@ h1{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.rightContainer{
+   width: 65%;
+   height: 100vh;
+   flex: auto;
+   background: #f9fafb;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 }
 
 .banner {
