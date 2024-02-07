@@ -15,6 +15,29 @@ input {
     font-size: 16px;
 }
 
+label{
+    color: #313a47;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .2em;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+button{
+    border: none;
+    background-color: #596D48;
+    width: 250px;
+    height: 50px;
+    border-radius: 7px;
+    box-shadow: #00000055 2px 2px 2px;
+
+    margin: 50px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
 
 body{
     display: flex;
@@ -50,6 +73,8 @@ body{
    justify-content: center;
 }
 
+
+
 .banner {
     background-color: #00000055;
     height: fit-content;
@@ -72,4 +97,51 @@ body{
 .title{
     font-size: 124px;
     color: #ffffff;
+}
+
+.para{
+    margin: 0 50px;
+}
+
+p{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.contactInfo{
+    background-color: #ffffff;
+    box-shadow: #00000055 3px 3px 3px;
+    padding: 30px 50px;
+}
+
+.formTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.formInputs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.input{
+    margin-right: 80px;
+    margin-top: 25px;
+}
+
+.loginText{
+    margin: 0 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #1f2937;
+
+    a {
+        text-decoration: none;
+        color: #596D48;
+    }
 }
